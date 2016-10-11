@@ -30,3 +30,10 @@ cd ..
 mv out/CPUtime.csv .
 
 paste -d, analysis.csv h.csv CPUtime.csv> combined.csv   #combine the three csv into a whole one.
+cd ..
+mv hw1-snaqTimeTests/combined.csv result
+cd hw1-snaqTimeTests
+rm -f analysis.csv
+rm -f h.csv
+rm -f CPUtime.csv
+cd ..
