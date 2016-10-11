@@ -25,4 +25,4 @@
 
 - summarizeSNaQres.sh is in directory hw1.
 
-- summarizeSNaQres.sh is for provide a csv file with columns analysis, h, CPUtime, Nruns, Nfail, fabs, frel, xabs, xrel, seed, under3460, under3450, under3440
+- summarizeSNaQres.sh is for providing a csv file with columns analysis, h, CPUtime, Nruns, Nfail, fabs, frel, xabs, xrel, seed, under3460, under3450, under3440.
