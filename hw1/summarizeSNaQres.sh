@@ -73,17 +73,17 @@ do
     i3=0 #set the initial value
     for value in $loglik
     do
-	if [ $value -le 3460 ]
+	if [ $value -lt 3460 ]
 	then
 	    i1=$((i1+1)) #compare the value with 3460, if value < 3460, we add one to i1.
 	fi
 
-	if [ $value -le 3450 ]
+	if [ $value -lt 3450 ]
 	then
 	    i2=$((i2+1)) #compare the value with 3450, if value < 3450, we add one to i2.
 	fi
 
-	if [ $value -le 3440 ]
+	if [ $value -lt 3440 ]
 	then
 	    i3=$((i3+1)) #compare the value with 3440, if value < 3440, we add one to i3.
 	fi
