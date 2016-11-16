@@ -1,5 +1,10 @@
 #Homework 2
 
+##Instruction
+The main purpose of this Homework is to merge two files. Matching two file firstly, and then putting the energy_value in [energy.csv](https://github.com/ruifengchen/stat679work/blob/master/hw2/hw2-datamerge/energy.csv) to the additional column in [waterTemperature.csv](https://github.com/ruifengchen/stat679work/blob/master/hw2/hw2-datamerge/waterTemperature.csv), and some format need to change to satisfy the homework requirement.
+
+the working directory is hw2
+
 ##Data
 [Data](https://github.com/ruifengchen/stat679work/tree/master/hw2/hw2-datamerge) contains two main files [energy.csv](https://github.com/ruifengchen/stat679work/blob/master/hw2/hw2-datamerge/energy.csv) and [waterTemperature.csv](https://github.com/ruifengchen/stat679work/blob/master/hw2/hw2-datamerge/waterTemperature.csv).
 
