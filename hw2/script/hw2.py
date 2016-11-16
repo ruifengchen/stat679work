@@ -106,7 +106,7 @@ def mergy_files(temperature_file, energy_file, output = "output.csv"):
     water_energy_value.append(",")  #the last row
 
     #This part is to get the output.csv file
-    output.write(",".join(['"Order"','"Date Time"','"Temperature"','"Energy Value(kWh)"']))  #write the column name
+    output.write(",".join(['"#"','"Date Time"','"Temperature"','"Energy Value(kWh)"']))  #write the column name
     output.write("\n")
     for i in range(len(water_date_conform)):
         output.write(",".join([water_index[i],water_date[i],water_value[i],water_energy_value[i]]))

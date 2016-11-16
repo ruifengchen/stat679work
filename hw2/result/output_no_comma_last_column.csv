@@ -1,4 +1,4 @@
-"Order","Date Time","Temperature","Energy Value(kWh)"
+"#","Date Time","Temperature","Energy Value(kWh)"
 1,07/29/16 10:26:34 AM,72.86, 
 2,07/29/16 11:26:34 AM,73.92, 
 3,07/29/16 12:26:34 PM,73.98, 
