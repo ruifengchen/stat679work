@@ -103,7 +103,7 @@ def mergy_files(temperature_file, energy_file, output = "output.csv"):
                     water_energy_value.append(str(int(energy_value[n_energy])/1000))
                     n_energy += 1
                     currentEnergyDay = energy_date_conform[n_energy-1]  #those rows to put the value
-    water_energy_value.append(",")  #the last row
+    water_energy_value.append(" ")  #the last row
 
     #This part is to get the output.csv file
     output.write(",".join(['"Order"','"Date Time"','"Temperature"','"Energy Value(kWh)"']))  #write the column name
