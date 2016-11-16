@@ -11,7 +11,7 @@ The energy.csv file contains two columns:
 
 The waterTemperature.csv file contains three columns:
 
-- #
+- "#"
 
 - Date Time, GMT-05:00
 
@@ -44,6 +44,6 @@ Here in order to get the output file, I ran
 
 In a word, the main sentence is：
 
-**python script argument1 argument2 output_file**
+**python script argument1 argument2 output_file** or
 
-or **python script argument1 argument2** with the output turning to STDOUT stream
+**python script argument1 argument2** (with the output turning to STDOUT stream)
