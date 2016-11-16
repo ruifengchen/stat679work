@@ -98,7 +98,7 @@ def mergy_files(temperature_file, energy_file, output = "output.csv"):
         if n_energy <= len(energy_date_conform):  #i cannot be greater than len(water_date_conform)
             if water_date_conform[i] == currentEnergyDay:
                 if water_date_conform[i+1] == currentEnergyDay:
-                    water_energy_value.append(",")  #to those not the nearest time
+                    water_energy_value.append(" ")  #to those not the nearest time
                 else:
                     water_energy_value.append(str(int(energy_value[n_energy])/1000))
                     n_energy += 1
